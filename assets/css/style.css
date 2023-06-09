@@ -1,0 +1,105 @@
+/* Tambahkan CSS di sini */
+    body {
+      background: linear-gradient(to bottom, #7f00ff, #e100ff, #9a00ff);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      min-height: 100vh;
+      font-family: 'Inter', sans-serif;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+    }
+
+
+   .profile {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 600px;
+      font-family: 'Inter', sans-serif;
+  /* Tambahkan perubahan CSS berikut */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+   .profile h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .social-media-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+  /* Ubah flex-direction menjadi column */
+      flex-direction: column;
+      margin-top: auto;
+}
+
+.social-media-links li {
+  /* Hapus properti margin-right */
+  /* margin-right: 10px; */
+  /* Tambahkan margin-bottom untuk memberi jarak antar elemen */
+  margin-bottom: 10px;
+}
+
+
+   .social-media-links a {
+      display: flex;
+      align-items: center;
+      color: #333;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .social-media-links a.btn {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.social-media-links a.btn:hover {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+  color: #fff;
+}
+
+    .social-media-links a i {
+      margin-right: 5px;
+    }
+
+    footer {
+     background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-width: 4000px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+    }
